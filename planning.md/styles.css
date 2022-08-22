@@ -1,0 +1,165 @@
+/* H1 and banner box */
+
+.header {
+    font-family: 'Dancing Script', cursive;
+    font-size: 150px;
+    text-align: center;
+    color: #322f35;
+    background-color: #C8B2A1;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+
+.bannerBox {
+    background-color: #aD5A29;
+    border: 3px solid #6C4D54;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: -1px;
+}
+
+.coverPhoto {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+
+}
+
+/* h2 and text */
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #322f35;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #322f35;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #322f35;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+/* below is the 'comment' css */
+
+form {
+
+    /*background-color: green; */
+}
+
+.container {
+    /*background-color: blueviolet; */
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 3px solid #6C4D54;
+    background-color: #C8B2A1;
+    color: #322f35;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputPair{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+  }
+
+.inputPairComment{
+    display:flex;
+    flex-direction:column;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 17px;
+    text-indent: 10px;
+  }
+
+.inputBuddies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.inputPairCheckbox {
+    display:flex;
+    flex-direction:row;
+    margin-left: 30%;
+    margin-right: 25%;
+    font-size: 15px;
+
+}
+
+.centerText {
+    text-align: center;
+    font-size: 17px;
+}
+
+.radioButtons {
+    display:flex;
+    flex-direction:row;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 14.5px;
+}
+
+.submitButton {
+    text-align: center;
+}
+
+.singleInputRow {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.addUserBox {
+    border: solid black;
+}
+
+  /*begins 'My Favorites' */
+
+ul {
+    margin-left: 23.5%;
+    margin-right: 25%;
+    font-family: 'Poppins', sans-serif;
+    color: #322f35;
+    border: 3px solid #6C4D54;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* begins the 'pictures' css */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+
+img {
+height: 300px;
+width: auto;
+}
